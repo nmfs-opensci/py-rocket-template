@@ -1,0 +1,20 @@
+name: py-rocket-template
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  # Core scientific python stack
+  - numpy
+  - pandas
+  - scipy
+  - xarray>=2024.10
+  
+  # Geospatial data packages
+  - geopandas
+  - rasterio
+  - rioxarray
+  
+  # Visualization
+  - matplotlib
+  - cartopy
