@@ -27,7 +27,7 @@ RUN echo '.libPaths("/usr/local/lib/R/site-library")' > /etc/littler.r && \
     echo '.libPaths("/usr/local/lib/R/site-library")' > /tmp/rprofile.site && \
     R_PROFILE=/tmp/rprofile.site \
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
-    /pyrocket_scripts/install-r-packages.sh /tmp/install.R || (echo "install-r-package.sh failed" && exit 1) && \
+    /pyrocket_scripts/install-r-packages.sh /tmp/install.R || (echo "install-r-packages.sh failed" && exit 1) && \
     rm /etc/littler.r /tmp/rprofile.site
 
 # Clear out files put in /tmp
