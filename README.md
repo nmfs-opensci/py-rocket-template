@@ -1,6 +1,8 @@
 # py-rocket-template
 A template for using [py-rocket-base](https://nmfs-opensci.github.io/py-rocket-base/) (Python+R in a Pangeo+Rocker UI) for creating Docker image for JupyterHubs.
 
+py-rocket-base creates the consistent Pangeo-esque user interface + all the niceties like making sure the R environment is separate from conda, the publishing suite is installed, ssh is ready, Desktop installed, etc. Your derivative images will add the Python and R packages that you want. Note, in py-rocket-base, R has a core set of standard packages (tidyverse) while Python mainly has things needed for the JupyterHub/JupyterLab/Dask UI.
+
 ## Using this template
 
 When you use this template to create your own repository:
