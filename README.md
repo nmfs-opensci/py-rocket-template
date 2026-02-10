@@ -1,5 +1,5 @@
 # py-rocket-template
-A template for using py-rocket-base for creating Docker image for JupyterHubs
+A template for using [py-rocket-base](https://nmfs-opensci.github.io/py-rocket-base/) (Python+R in a Pangeo+Rocker UI) for creating Docker image for JupyterHubs.
 
 ## Using this template
 
