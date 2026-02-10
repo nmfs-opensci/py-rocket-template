@@ -28,5 +28,5 @@ jobs:
         uses: ./.github/actions/build-and-push
         with:
           image_dir: .
-          image_name: container-images/py-rocket-template
+          # image_name defaults to repository name if not specified
           github_token: ${{ secrets.GITHUB_TOKEN }}

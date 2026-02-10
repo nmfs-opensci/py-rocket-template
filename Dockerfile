@@ -1,8 +1,10 @@
 FROM ghcr.io/nmfs-opensci/py-rocket-base:2026.02.07
 
+ARG REPO_URL=https://github.com/OWNER/REPO
+
 LABEL org.opencontainers.image.maintainers="your.name"
 LABEL org.opencontainers.image.author="your.name"
-LABEL org.opencontainers.image.source=https://github.com/nmfs-opensci/py-rocket-template
+LABEL org.opencontainers.image.source=${REPO_URL}
 LABEL org.opencontainers.image.description="Python (3.11) and R (4.5.1) image template"
 LABEL org.opencontainers.image.licenses=Apache2.0
 LABEL org.opencontainers.image.version=2026.02.10

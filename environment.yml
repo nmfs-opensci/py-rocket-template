@@ -1,4 +1,4 @@
-name: py-rocket-template
+name: notebook
 channels:
   - conda-forge
   - nodefaults
